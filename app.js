@@ -8,7 +8,7 @@ const app = express();
 connectDB();
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://portfolio-seven-sage-aqrc3m5b8m.vercel.app/',
     credentials: true
 }));
 app.use(express.json());
